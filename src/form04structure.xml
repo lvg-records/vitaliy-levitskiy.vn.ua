@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contactFormStructure>
+	<formItems>
+		<item id="1" label="Name" required="true">
+			<textToShow>NAME:</textToShow>
+		</item>
+		<item id="2" label="Phone">
+			<textToShow>PHONE:</textToShow>                     
+                        <restrict>+-.0-9</restrict>
+		</item>
+		<item id="3" label="E-mail" required="true">
+			<textToShow>E-MAIL:</textToShow>
+			<validator>EmailValidator</validator>
+		</item>
+		<item id="4" label="Message" required="true">
+			<textToShow>MESSAGE:</textToShow>
+		</item>
+	</formItems>
+</contactFormStructure>

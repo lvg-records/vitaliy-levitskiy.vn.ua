@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content>
+	<!-- general vars -->
+	<section name="settings">
+		<item name="textSelectable">true</item>
+	</section>
+	
+	<section name="configuration">
+		<delta_pics>0.1</delta_pics>       <!-- distance between adjacent images -->
+		<alpha_bg>90</alpha_bg>          <!-- transparency  of the substrate under the comment -->
+		<delta_scr>-74</delta_scr>       <!-- scroller correction -->
+		<pic_smoth>false</pic_smoth>      <!-- image smoothness (true/false)-->
+		<pic_ext>.jpg</pic_ext>          <!-- big pictures filename extension (.jpg/.png) -->
+	</section>
+
+	<section name="pages">
+		<page name="home page">
+			<gall name="globalGallery">
+				<folder fName="1" fTitle="smiles">
+					<image imageUrl="img/smiles/img_1.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/smiles/img_2.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/smiles/img_3.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/smiles/img_4.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/smiles/img_5.jpg" size="426" size_width="657"/>
+				</folder>
+				
+				<folder fName="2" fTitle="Sorter">
+					<image imageUrl="img/sorter/img_1.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/sorter/img_2.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/sorter/img_3.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/sorter/img_4.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/sorter/img_5.jpg" size="426" size_width="657"/>
+				</folder>
+
+				<folder fName="3" fTitle="In The Cadr">
+					<image imageUrl="img/in_cadr/img_1.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/in_cadr/img_2.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/in_cadr/img_3.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/in_cadr/img_4.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/in_cadr/img_5.jpg" size="426" size_width="657"/>
+					</folder>
+
+				<folder fName="4" fTitle="Parking">
+					<image imageUrl="img/parcking/img_1.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/parcking/img_2.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/parcking/img_3.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/parcking/img_4.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/parcking/img_5.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/parcking/img_6.jpg" size="426" size_width="657"/>
+				</folder>
+				
+				<folder fName="5" fTitle="RobinHood">
+					<image imageUrl="img/rob_hood/img_1.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/rob_hood/img_2.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/rob_hood/img_3.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/rob_hood/img_4.jpg" size="426" size_width="657"/>
+					<image imageUrl="img/rob_hood/img_5.jpg" size="426" size_width="657"/>
+				</folder>
+			</gall_text>
+		</gall>
+		</page>
+	</section>
+</content>
